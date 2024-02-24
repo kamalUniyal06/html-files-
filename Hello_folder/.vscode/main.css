@@ -1,0 +1,20 @@
+h1{
+    background-color: black;
+   font-family: cursive;
+   font-size: 50px;
+   font-style: italic;
+   text-align: center;
+   color: rgb(255, 255, 255);
+}
+body{
+    background-color: rgb(0, 181, 181);
+}
+strong{
+    background-color: deepskyblue;
+}
+section{
+    text-align: center;
+}
+footer{
+    background-color: brown;
+}

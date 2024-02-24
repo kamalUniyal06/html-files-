@@ -1,0 +1,129 @@
+ 4   HTML IS NOT CASE SENCITIVE,AS THE MEANING OF CAPITAL AND SMALL ALPHABET'S ARE SAME BUT IN C AND C++ IT IS NOT SOO.
+BASIC HTML TAGS:
+@HTML ATTRIBUTES= Attributes are used to add more information to the tag like,
+<html lang="en"> here lang="en"> is an attribute which is showing that the code language is english.
+and <html is a tag 
+1.HEADING TAG: it use to display heading in html,it arrange the heading as per priority like if a heading is important it will so it in bold and if its least important it will minimise your text size.
+3.paragraph tag: Used to add paragraphs in html.
+4.Anchor tag: It is  used to add links to your page , here <a href=" "></a> is used to any website link in your own wesite.
+
+THERE ARE TWO TYPES OF LINK:
+1.ABSOLUTE LIKE: When the link is attached to your website from some external website ,like flipkart,amazon link in your website.
+2.RELATIVE LINK: when the link is attached with your website from your own another website than it is called relative link.
+
+5.IMAGE TAG: Used to add images to your page.
+like <img scr="/image.png" alt="random image">...... here "/image.png" is a relative url
+6.Br. TAG: Used to add next line (line breaks) to your page like <br>
+7.Bold, Italic,Undeline TAG: Used to highlight text in your page
+like, <b> Bold </b>
+        <i> Italic </i>  
+        <u> Underline </u>
+
+8. Big and Small Tags: Used to display big and small text on your page.,
+ like, <big> Big</big      and
+<small> Small </small>
+9.Hr TAG: Used to display a horizontal ruler, used to seperate content. like,
+<hr>
+10. Subscript and Superscript TAG:
+Used to display a horizontal ruler, used to seperate content. like,
+<sub> subscript </sub>
+           H2O
+<sup> supeerscript </sup>
+A*n +B
+11.Pre TAG: Used to display text as it is (without ignoring spaces and next line).
+like, <pre> This
+                    is a simple 
+                    text.
+        </pre>
+LEVEL 3:
+1.LAYOUT(page layout technique): using semantic tags for layout using the right tag, for that we have two types of tags in layout.
+a)semantic tag=which name's itself tell's it's function like ,header,footer, main. It makes website more readable,and give good experience to user.
+1.header tag= for setting the above content in a website ,it's notation is <header></header>.
+2.main tag=it is used to write the content in middle which has most of content of a website ,inside main tag there are more tags like
+a)section tag= for a section on your page like, <section></section>
+b)artical tag= for an artical on your page like, <article></article>
+c)aside tag= for content aside main content(ad's) like, <aside></aside>
+now
+3.footer tag= it is used to make the content of down side of the page .
+
+@ reverting anchor tag: <a href="address of website" target="_main">name of the website</a>===it is used for new tab 
+and   
+<a href="address of website"> <img src="link"></a>  ===it is used to show make a clickable pick.
+ 
+b)non semantic tag= It is differnt type of tag whose functioning is different like div or spam, it's name doesnot symbolice its's functioning.
+1.div tag= div is a container used for other HTML elements
+Block element (takes full width) , div has a task to carry out other tags .
+
+2.Span tag= span is also a container used for other HTML elements
+inline elements (takes width as per size.
+
+LEVEL PRO:
+1.List in HTML=Lists are used to represent real life list data.
+unordered      and       ordered
+unordered= bullet points likh sakte hai
+<ul>                               here ul is unordered list
+<li>apple</li>              here li is list item
+<li>mango</li>
+</ul>
+ordered= isme roman , numeric elements add kr sakte hai
+<ol>
+<li>apple</li>
+<li>mango</li>
+</ol>
+
+2.Tables in HTML: Tables are used to represent real life table data.
+<tr>   used to display table row
+<td>  used to display table data
+<th>  used to display table header
+@caption in tables: <caption> student data</caption>
+@thead and tbody in tables
+<thead>to wrap table head
+<tbody>to wrap table body
+<th colspan="no of column">
+data
+3.Form in HTML: Forms are used to collecct data from the user
+eg-sign up/login/help request/contact me
+<form>
+form content
+</form>
+@Action in Form: Action attribute is used to define what action needs to be performed when a form is submitted
+<form action="/action.php">
+Form Element: Input
+<input type="text" placeholder="Enter Name">  
+                           or
+<input type="password" placeholder="enter the password
+@Label: 
+<label for="id1">
+            <input type="radio" value="class X" name="class" id="id1">class X
+</label>
+<ladel for="id2">
+              <input type="radio" value="class XI" name="class" id="id2">classXI
+</ladel>
+@class and Id:
+<div id="id1" class="group1>
+</div>
+
+<div id="id2">
+</div>
+@checkbox :    <label for="evs">
+        <input type="checkbox" value="104" name="subject" id="104">evs
+    </label>
+@Textarea:   <textarea name="feedback" id="101" placeholder="Please give your valuable feedback here" rows="5">feedback</textarea>
+4. inframe Tag: Website inside website
+@select tag:
+<select name="city">
+<option value="Delhi">Delhi</option>
+<option value="Delhi">Mumbai</option>
+<option value="Delhi">Goa</option>
+<option value="Delhi">Pune</option>
+</select>
+
+@<iframe src="link">
+5.video tag:
+<video src="video link"> My video </video>
+Attributes
+1.control
+2.height
+3.width
+4.loop
+5.autoplay

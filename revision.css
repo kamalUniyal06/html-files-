@@ -1,0 +1,8 @@
+h1{
+    color: blue;
+}
+#om{
+    background-image: url(/Hello_folder/image/founder.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
